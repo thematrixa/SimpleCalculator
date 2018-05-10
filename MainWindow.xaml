@@ -1,0 +1,31 @@
+﻿<Window x:Class="SimpleCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimpleCalculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="360" Width="477.666">
+    <Grid>
+        <Button x:Name="sevenBut" Content="7" HorizontalAlignment="Left" Margin="29,55,0,0" VerticalAlignment="Top" Width="44" Height="40" Click="sevenBut_Click"/>
+        <Button x:Name="nineBut" Content="9" HorizontalAlignment="Left" Margin="161,55,0,0" VerticalAlignment="Top" Width="44" Height="40" Click="nineBut_Click"/>
+        <Button x:Name="eightBut" Content="8" HorizontalAlignment="Left" Margin="95,55,0,0" VerticalAlignment="Top" Width="44" Height="40" Click="eightBut_Click"/>
+        <Button x:Name="sixBut" Content="6" HorizontalAlignment="Left" Margin="29,115,0,0" VerticalAlignment="Top" Width="44" Height="40" Click="sixBut_Click"/>
+        <Button x:Name="fourBut" Content="4" HorizontalAlignment="Left" Margin="161,115,0,0" VerticalAlignment="Top" Width="44" Height="40" Click="fourBut_Click"/>
+        <Button x:Name="fiveBut" Content="5" HorizontalAlignment="Left" Margin="95,115,0,0" VerticalAlignment="Top" Width="44" Height="40" Click="fiveBut_Click"/>
+        <Button x:Name="threeBut" Content="3" HorizontalAlignment="Left" Margin="29,177,0,0" VerticalAlignment="Top" Width="44" Height="40" Click="threeBut_Click"/>
+        <Button x:Name="oneBut" Content="1" HorizontalAlignment="Left" Margin="161,177,0,0" VerticalAlignment="Top" Width="44" Height="40" Click="oneBut_Click"/>
+        <Button x:Name="twoBut" Content="2" HorizontalAlignment="Left" Margin="95,177,0,0" VerticalAlignment="Top" Width="44" Height="40" Click="twoBut_Click"/>
+        <Button x:Name="clearBut" Content="C" HorizontalAlignment="Left" Margin="29,227,0,0" VerticalAlignment="Top" Width="44" Height="40" Click="clearBut_Click"/>
+        <Button x:Name="pointBut" Content="." HorizontalAlignment="Left" Margin="161,227,0,0" VerticalAlignment="Top" Width="44" Height="40" Click="pointBut_Click"/>
+        <Button x:Name="zeroBut" Content="0" HorizontalAlignment="Left" Margin="95,227,0,0" VerticalAlignment="Top" Width="44" Height="40" Click="zeroBut_Click"/>
+        <Button x:Name="divBut" Content="/" HorizontalAlignment="Left" Margin="231,55,0,0" VerticalAlignment="Top" Width="44" Height="40" Click="divBut_Click"/>
+        <Button x:Name="subBut" Content="-" HorizontalAlignment="Left" Margin="231,177,0,0" VerticalAlignment="Top" Width="44" Height="40" Click="subBut_Click"/>
+        <Button x:Name="mulBut" Content="*" HorizontalAlignment="Left" Margin="231,115,0,0" VerticalAlignment="Top" Width="44" Height="40" Click="mulBut_Click"/>
+        <Button x:Name="addBut" Content="+" HorizontalAlignment="Left" Margin="231,227,0,0" VerticalAlignment="Top" Width="44" Height="40" Click="addBut_Click"/>
+        <Button x:Name="equalsBut" Content="=" HorizontalAlignment="Left" Margin="29,282,0,0" VerticalAlignment="Top" Width="246" Height="35" Click="equalsBut_Click"/>
+        <TextBox x:Name="valueBox" HorizontalAlignment="Left" Height="23" Margin="29,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="246"/>
+        <TextBox x:Name="currentEquationBox" HorizontalAlignment="Left" Height="85" Margin="298,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140"/>
+
+    </Grid>
+</Window>

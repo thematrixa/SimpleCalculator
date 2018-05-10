@@ -20,7 +20,7 @@ namespace SimpleCalculator
     /// </summary>
     public partial class MainWindow : Window
     {
-        double number1 = 0;
+        double number1 = 1;
         double number2 = 0;
         string sign = "";
         double result = 0;
